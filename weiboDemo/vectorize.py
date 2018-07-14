@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from weiboDemo.xml_extract import get_corpus
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
