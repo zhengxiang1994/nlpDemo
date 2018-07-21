@@ -1,3 +1,5 @@
+# compute the similarity between two docs
+# -*- coding: utf-8 -*-
 from gensim import corpora, models, similarities
 import logging
 from collections import defaultdict
