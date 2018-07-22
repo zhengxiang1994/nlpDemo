@@ -21,7 +21,8 @@ def seg_sentence(sentence, filepath):
 
 
 if __name__ == "__main__":
-    line = "你不仅漂亮而且温柔"
+    jieba.load_userdict("dict.txt")
+    line = "近年来云计算技术变得越来越成熟。你不仅漂亮而且温柔"
     print("no using stopwords:", "/".join(jieba.cut(line)), sep="\n")
     print("using stopwords:", seg_sentence(line, "stopwords.txt"), sep="\n")
 
